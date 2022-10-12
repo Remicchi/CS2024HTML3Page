@@ -21,3 +21,11 @@ h1 {
 p {
 	font-family: 'Lato', sans-serif;
 }
+
+.logo {
+  padding-right: 10px;
+}
+
+header button {
+  margin-right: 15px;
+}
