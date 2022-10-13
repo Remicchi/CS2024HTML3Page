@@ -29,3 +29,7 @@ p {
 header button {
   margin-right: 15px;
 }
+
+header a, footer a {
+  font-family: 'Open Sans', cursive;
+}
