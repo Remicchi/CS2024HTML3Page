@@ -22,9 +22,17 @@ p {
 	font-family: 'Lato', sans-serif;
 }
 
+.secondaryheader {
+  margin-bottom: 30px;
+}
+
+.herodesc {
+  line-height: 1.7;
+}
+
 .rowtitle {
   margin-bottom: 15px;
-  padding-left: 15px;
+  /*padding-left: 15px;*/
 }
 
 .logo {
@@ -46,6 +54,11 @@ header a, footer a {
 .productdesc {
   color: #F5F5F5;
   padding: 30px;
+  text-shadow: 0px 0px 5px #000000;
+}
+
+.productdesc h3 {
+  margin-bottom: 15px;
 }
 
 a {
@@ -57,8 +70,82 @@ a:hover {
   text-decoration: underline;
 }
 
+.sectionheader {
+  margin-bottom: 30px;
+}
+
 .sectiondesc {
   font-size: 18px;
+}
+
+.approv-section-header-gradient {
+  background-image: linear-gradient(135deg, #E34AF7, #2558F5 60%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.approv-section-text-color {
+  color: #4D51F5;
+}
+
+.trusted-section-header-gradient {
+  background-image: linear-gradient(180deg, #B1FAB3, #51B39D 60%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.privacy-section-header-gradient {
+  background-image: linear-gradient(90deg, #A9D2F8, 20%, #C487F0 60%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.flexrepay-section-header-gradient {
+  background-image: linear-gradient(#296FE8 30%, 70%, #66E2ED);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.simpleapply-section-header-gradient {
+  background-image: linear-gradient(90deg, #579EE8, 30%, #2F68BC 80%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+}
+
+.bottomheader {
+  margin-bottom: 25px;
+  /*font-size: 42px;*/
+}
+
+.bottomdesc {
+  margin-bottom: 45px;
+  /*font-size: 32px;*/
+}
+
+/* ----- For applyloan.html ----- */
+
+span.yellow {
+    color:#ffc107;
+    font-size: 110%;
+    background: none;
+}
+
+span.blue {
+    color:#0d6efd;
+    font-size: 110%;
+    background: none;
+}
+
+span.brown {
+    color:#964B00;
+    font-size: 110%;
+    background: none;
 }
 
 .disclaimer {
