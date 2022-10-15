@@ -19,7 +19,7 @@
       <link rel="icon" type="image/x-icon" href="favicon.ico">
     </head>
     <body>
-      <div class="container-fluid" style="background-color: #f6f6f6!important;">
+      <div class="container-fluid" style="background-color: #FAFAFA!important;">
           <div class="row sticky-top">
             <div class="col-md-12" style="background-color: #f5f5dc!important;">
               <header class="p-3 text-bg-dark" style="background-color: #f5f5dc!important;">
@@ -44,29 +44,29 @@
 
         <div class="m-5 text-center">
           <h1 class="fw-bold mb-4">Apply for a Loan</h1>
-          <h3 class="text-muted"><span class="blue">Secure</span>. <span class="brown">Reliable</span>. <span class="yellow">Fast</span>.</h3>
+          <h2 class="applyloan-header-gradient">Secure. Reliable. Fast.</h2>
         </div>
 
-        <div class="container p-4 shadow" style="background-color: #ffffff!important;">
+        <div class="container col-8 shadow formcontainer" style="background-color: #ffffff!important;">
           <div class="form-box">
             <form action="#" method="post">
               <div class="row">
                 <div class="col-md-6">
                   <div class="form-field">
-                    <label>Full Name (As per NRIC)*</label>
-                    <input type="text" name="full-name" size="40" class="form-control" required placeholder="Enter your full name (e.g. James Smith)" />
+                    <label for="fullname" class="form-label">Full Name (As per NRIC)*</label>
+                    <input type="text" id="fullname" name="full-name" size="40" class="form-control" required placeholder="Enter your full name (e.g. James Smith)" />
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="form-field">
-                    <label>Contact Number*</label>
-                    <input type="tel" name="contact-number" size="40" class="form-control" maxlength="8" minlength="8" required placeholder="Enter your contact no. (e.g. 91234567)" />
+                    <label for="contactnumber" class="form-label">Contact Number*</label>
+                    <input type="tel" id="contactnumber" name="contact-number" size="40" class="form-control" maxlength="8" minlength="8" required placeholder="Enter your contact no. (e.g. 91234567)" />
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="form-field">
-                    <label>Loan Purpose (Select the most relevant)*</label>
-                    <select name="loan-purpose" class="form-control" required >
+                    <label for="loanpurpose" class="form-label">Loan Purpose (Select the most relevant)*</label>
+                    <select id="loanpurpose" name="loan-purpose" class="form-select" required >
                       <option value>Select Loan Type</option>
                       <option value="Personal Loan">Personal Loan</option>
                       <option value="Business Loan">Business Loan</option>
@@ -81,34 +81,40 @@
                 </div>
                 <div class="col-md-6">
                   <div class="form-field">
-                    <label>Monthly Income*</label>
-                    <input type="number" name="monthly-income" size="40" class="form-control" required placeholder="Enter your monthly income" />
+                    <label for="monthlyincome" class="form-label">Monthly Income*</label>
+                    <input type="number" id="monthlyincome" name="monthly-income" size="40" class="form-control" required placeholder="Enter your monthly income" />
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="form-field">
-                    <label>Desired Loan Amount*</label>
-                    <input type="number" name="desired-loan" size="40" class="form-control" required placeholder="Enter your desired loan amount" />
+                    <label for="desiredloan" class="form-label">Desired Loan Amount*</label>
+                    <input type="number" id="desiredloan" name="desired-loan" size="40" class="form-control" required placeholder="Enter your desired loan amount" />
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="form-field">
-                    <label>Remarks (optional)</label>
-                    <input type="text" name="remarks" size="40" class="form-control" placeholder="e.g. Preferred appointment time" />
+                    <label for="remarksid" class="form-label">Remarks (Optional)</label>
+                    <input type="text" id="remarksid" name="remarks" size="40" class="form-control" placeholder="e.g. Preferred appointment time" />
                   </div>
                 </div>
               </div>
-              <div class="form-btn justify-content-end text-center mt-3">
+              <div class="form-btn justify-content-end text-center mt-4">
                 <input type="submit" value="Apply Now!" class="btn btn-warning btn-lg" />
               </div>
             </form>
           </div>
         </div>
-        <div class="container my-5">
-          <p class="disclaimer">
-            <strong>Your privacy and security are assured.</strong><br />
-            We take all steps to protect your personal information. By submitting this form, you agree to be contacted with the information provided above. You application is 100% confidential.
-          </p>
+        <div class="container col-8 my-5">
+          <div class="row">
+            <div class="col">
+              <img src="shield-2.png" width="32px" class="mx-lg-auto img-fluid" style="float: left; margin-top: 4px;" alt="Icon of shield with tick mark" loading="lazy" />
+              <p class="disclaimer">
+                <strong>Your privacy and security are assured.</strong><br />
+                We take all steps to protect your personal information. By submitting this form, you agree to be contacted with the information provided above.<br />
+                Your application is 100% confidential.
+              </p>
+            </div>
+          </div>
         </div>
 
 
