@@ -124,6 +124,7 @@ a:hover {
 }
 
 .bottomdesc {
+  margin-top: 15px;
   margin-bottom: 45px;
   /*font-size: 32px;*/
 }
